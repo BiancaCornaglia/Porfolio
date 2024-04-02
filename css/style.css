@@ -1,0 +1,42 @@
+     
+    /* Selector etiquetas h2*/
+    h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(0, 110, 255);
+        }
+
+    /* Selector clase circular--square */
+    .circular--square {
+        border-radius: 50%;
+    }
+      header h2{
+        display: flex;
+        margin: 0;
+        }
+    /* Selector ID  */
+    h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(0, 44, 102)
+    }  
+    header .perfil {
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        margin-left: 10px;
+      }     
+    header .foto {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+
+    body .texto{
+        text-align: justify;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        margin-left: 10px
+
+      }
+    body .h-100 p-5 bg-light border rounded-3, .h-100 p-5 text-white bg-dark rounded-3 {
+        list-style-type: circle;
+      }
