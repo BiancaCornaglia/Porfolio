@@ -1,1 +1,1 @@
-#En este apartado bla bla
+#En este apartado se llevara a cabo mi portfolio personal.
