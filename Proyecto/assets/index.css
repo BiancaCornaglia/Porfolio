@@ -20,8 +20,8 @@ body{
     margin: auto;
 }
 
-.header{
-    background-image: url(/Images/fotomia_01.jpg);
+header{
+    background-image: url(/Proyecto/Images/fotomia_01.jpg);
     background-position:center;
     background-size: cover;
     min-height: 90vh;
