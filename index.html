@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="/Images/Logob3ly_cuadrado_01.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--El h1 de Portfolio va a pasar a ser un logo por lo tanto no se va a ver-->
+        <nav>
+            <h1>Portfolio</h1>
+            <ul>
+                <li><a href="#in">Inicio</a></li>
+                <li><a href="#int">Intereses</a></li>
+                <li><a href="#trab">Trabajos</a></li>
+                <li><a href="#hab">Habilidades</a></li>
+                <li><a href="#cont">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="descripcion">
+            
+            <img class="mifoto" src="/Images/Fotomia_01.jpg" alt="Fotomia">
+            
+            <div>
+                <h1>Bianca Cornaglia</h1>
+                <p>Hola, soy una <b>artista digital</b> con muchas ganas de seguir aprendiendo y 
+                puliendo mis habilidades para llevar a cabo cada vez mejores proyectos.</p>
+                <h2>Un poco sobre mi</h2>
+                <p>Tengo 19 años, soy de Santo Tome, una pequeña ciudad de Santa fe, pero 
+                actualmente vivo en Rafaela debido a que estudio Desarrollo de Videojuegos y 
+                Entretenimiento Digital en la <b> Universidad Nacional de Rafaela</b>.</p>
+            </div>
+
+        </section>
+
+    </main>
+    
+<!--Seccion de intereses, imagen y texto debajo-->
+    <section class="intereses">
+        
+        <h2 class="titulo" id="int">Intereses</h2>
+        <p>Estas son algunas cosas que me gustan</p>
+            
+        <div class="intereses-contenedor">
+                
+            <ul>
+                    <li><figure><img src="/Images/Dibujar_01.jpg" alt="Dibujar" width="200"></figure>
+                        <h3>Dibujar</h3></li>
+                    <li><figure><img src="/Images/cafe_01.jpg" alt="Cafe" width="200"></figure>
+                        <h3>Cafe</h3></li>   
+                    <li><figure><img src="/Images/cocinar_01.jpg" alt="Cocina" width="200"></figure>
+                        <h3>Cocinar</h3></li>    
+                    <li><figure><img src="/Images/rompecabezas_01.jpg" alt="rompecabezas" width="200"></figure>
+                        <h3>Rompecabezas</h3></li>    
+                    <li><figure><img src="/Images/heartstopper.jpg" alt="Heartstopper" width="200"></figure>
+                        <h3>Heartstopper</h3></li>    
+                    <li><figure><img src="/Images/Miranda.jpg" alt="Miranda" width="200"></figure>
+                        <h3>Miranda!</h3></li>    
+            </ul>
+
+        </div> 
+
+    </section>
+    
+<!--Seccion de trabajos, imagen y texto-->
+    <section class="trabajos">
+        <div class="trabajos-contenedor">
+            <h2 class="titulo" id="trab">Trabajos</h2>
+            <p>Algunas ilustraciones que realicé</p>
+            <div class="galeria-trabajos">
+                <div class="imagen-trabajos">
+                    <figure><img src="/Images/DibujoCono.jpeg" alt="ilustracion"></figure>
+                    <div class="hover-galeria">
+                        <img src="/Images/Logob3ly_png_03.png" alt="logo">
+                        <p>Ilustración en Aseprite</p>
+                    </div>
+                </div>
+                <div class="imagen-trabajos">
+                    <figure><img src="/Images/DibujoLata.jpg" alt="ilustracion"></figure>
+                    <div class="hover-galeria">
+                        <img src="/Images/Logob3ly_png_03.png" alt="logo">
+                        <p>Ilustración en Clip Studio Paint</p>
+                    </div>
+                </div>
+                <div class="imagen-trabajos">
+                    <figure><img src="/Images/DibujoMaquina.jpg" alt="ilustracion"></figure>
+                    <div class="hover-galeria">
+                        <img src="/Images/Logob3ly_png_03.png" alt="logo">
+                        <p>Ilustración en Clip Studio Paint</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Seccion de habilidades, imagen y texto-->
+    <section>
+        <div class="habilidades-contenedor">
+            <h2 class="titulo" id="hab">Habilidades</h2>
+            <div class="targetas">
+                <div class="targeta">
+                    <img src="/Images/logo_aseprite.png" alt="Aseprite">
+                    <div class="texto-targeta">
+                        <h4>Aseprite</h4>
+                    </div>
+                </div>
+                <div class="targeta">
+                    <img src="/Images/logo_clip.png" alt="Clip">
+                    <div class="texto-targeta">
+                        <h4>Clip Studio Paint</h4>
+                    </div>
+                </div>
+                <div class="targeta">
+                    <img src="/Images/logo_paint.png" alt="Paint">
+                    <div class="texto-targeta">
+                        <h4>Paint Tool Sai</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Boton para subir al inicio desde abajo de todo-->
+    <div id="boton">
+        <a href="#"><img src="/Images/flecha arriba.png" alt="subir"></a>
+    </div>
+<!--Seccion de Contacto-->
+    <footer>
+        <div class="footer-contenedor">
+            <h2 class="titulo" id="cont">Contacto</h2>
+            <div class="content-foo">
+                <h4>Gmail</h4>
+                <a href="mailto:bian.cornaglia11@gmail.com">bian.cornaglia11@gmail.com</a>
+                <h4>Celular</h4>
+                <a href="https://wa.me/3424279277" target="_blank">Whastapp</a>
+                <h4>Github</h4>
+                <a href="https://github.com/BiancaCornaglia" target="_blank">BiancaCornaglia</a>
+                <h4>Instagram</h4>
+                <a href="https://www.instagram.com/b3ly_/?next=%2Fbian_cornaglia%2F" target="_blank">@b3ly_</a>
+                <h4>Youtube</h4>
+                <a href="https://www.youtube.com/@B3ly_" target="_blank">B3LY_</a>
+            </div>
+        </div>
+        <h2 class="texto-final">&copy; B3LY_ | Bianca Cornaglia</h2>
+    </footer>
+</body>
+</html>

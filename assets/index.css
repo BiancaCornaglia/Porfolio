@@ -1,0 +1,234 @@
+
+/*Font importada*/
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*logo*/
+header h1{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    text-indent: -1000px;
+    text-align:center;
+    background-image: url(/Images/Logob3ly_cuadrado_01.jpg);
+    background-size: cover;
+}
+
+/*navegacion*/
+nav{
+    background-color: black;
+    text-align: center;
+}
+
+nav ul{ 
+    list-style: none;
+    display: inline-block;
+    padding: 18px;
+}
+
+nav ul li{
+    float: left;
+    margin-top: 20px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 18px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(53, 53, 53);
+}
+
+/*Descripcion mia*/
+
+.descripcion{
+    background-color: rgb(192, 192, 192);
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+section div h1{
+padding: 20px;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+section div h2{
+    font-size: 30px;
+    padding: 20px;
+}
+
+section div p{
+    font-size: 20px;
+}
+
+.mifoto{
+    margin-right: 4%;
+    border-radius: 5%;
+}
+
+/*titulos de cada sección (intereses/trabajos/habilidades/etc)*/
+
+.titulo{
+    color: rgb(128, 62, 32);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+/*
+header{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative
+}
+
+nav > ul > a{
+    color: rgb(255, 0, 0);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > ul > a:hover{
+    text-decoration: underline;
+}
+
+/*Texto del encabezado, como hago para moverlo a la izquierda*/
+/*
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.textos-header h1{
+    font-size: 80px;
+    color: black;
+}
+.textos-header p{
+    font-size: 30px;
+    font-weight: 300;
+    color: blueviolet;
+}
+
+/*Intereses*/
+/*
+.intereses{
+    background: #c4bf7f;
+}
+
+.intereses p{
+    font-size: 20px;
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/*imagenes*/
+/*
+.intereses-contenedor{
+    justify-content: center;
+    list-style: none;
+}
+
+/*texto*/
+/*
+.intereses-contenedor > ul > li > h3{
+    font-size: 20px;    
+    color: brown;
+}
+
+/*trabajos*/
+/*
+.trabajos{
+    background: #acc47f;
+}
+
+.galeria-trabajos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-trabajos{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    transform: scale(0);
+    background: hsla(103, 27%, 38%, 0.705);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: blanchedalmond;
+}
+
+.imagen-trabajos:hover .hover-galeria{
+    transform: scale(1);
+}
+
+/*habilidades*/
+/*
+.targetas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.targetas .targeta{
+    background: #acc47f;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.targetas .targera img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: #acc47f;
+}
