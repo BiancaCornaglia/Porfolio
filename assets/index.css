@@ -45,10 +45,12 @@ nav ul li a{
     text-decoration: none;
     font-size: 17px;
     padding: 18px;
+    transition-duration: .3s;
 }
 
 nav ul li a:hover{
     background-color: rgb(53, 53, 53);
+    transition: .5s;
 }
 
 /*Descripcion mia*/
@@ -62,7 +64,7 @@ nav ul li a:hover{
 }
 
 section div h1{
-padding: 20px;
+    padding: 20px;
     font-size: 60px;
     text-transform: uppercase;
 }
@@ -84,82 +86,60 @@ section div p{
 /*titulos de cada sección (intereses/trabajos/habilidades/etc)*/
 
 .titulo{
-    color: rgb(128, 62, 32);
-    font-size: 30px;
+    color: rgb(80, 45, 16);
+    font-size: 40px;
+    text-transform: uppercase;
     text-align: center;
-    margin-bottom: 40px;
-}
-/*
-header{
-    width: 100%;
-    height: 600px;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative
+    padding-top: 20px;
 }
 
-nav > ul > a{
-    color: rgb(255, 0, 0);
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-}
-nav > ul > a:hover{
-    text-decoration: underline;
-}
+/*Seccion de Intereses*/
 
-/*Texto del encabezado, como hago para moverlo a la izquierda*/
-/*
-header .textos-header{
-    display: flex;
-    height: 430px;
-    width: 100%;
-    align-items: end;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-}
-.textos-header h1{
-    font-size: 80px;
-    color: black;
-}
-.textos-header p{
-    font-size: 30px;
-    font-weight: 300;
-    color: blueviolet;
-}
-
-/*Intereses*/
-/*
 .intereses{
-    background: #c4bf7f;
+    background-color: rgb(126, 117, 106);
+    
 }
 
 .intereses p{
     font-size: 20px;
-    padding: 0px 0px 30px 15px;
-    font-weight: 300;
-    text-align: justify;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
-/*imagenes*/
-/*
 .intereses-contenedor{
+    display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.intereses-contenedor ul{
     list-style: none;
+    display: flex;
 }
 
-/*texto*/
-/*
-.intereses-contenedor > ul > li > h3{
-    font-size: 20px;    
-    color: brown;
+.intereses-contenedor ul li img{
+    margin: auto;
+    border-radius: 5%;
+    padding: 2%;
 }
 
-/*trabajos*/
-/*
+.intereses-contenedor ul li h3{
+    font-size: 16px;   
+    color: rgb(68, 43, 31);
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+/*Seccion de trabajos*/
+
 .trabajos{
-    background: #acc47f;
+    background-color: rgb(102, 89, 73);
+}
+
+.trabajos-contenedor p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .galeria-trabajos{
@@ -169,16 +149,13 @@ header .textos-header{
 }
 
 .imagen-trabajos{
-    width: 24%;
-    margin-bottom: 10px;
+    margin-bottom: 5%;
     overflow: hidden;
     position: relative;
     cursor: pointer;
 }
 
-.imagen-port > img{
-    width: 100%;
-    height: 100%;
+.imagen-port img{
     object-fit: cover;
     display: block;
 }
@@ -186,10 +163,10 @@ header .textos-header{
 .hover-galeria{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 98.5%;
     top: 0%;
     transform: scale(0);
-    background: hsla(103, 27%, 38%, 0.705);
+    background: hsla(29, 35%, 56%, 0.705);
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -209,26 +186,90 @@ header .textos-header{
     transform: scale(1);
 }
 
-/*habilidades*/
-/*
+/*Seccion de habilidades*/
+
+.habilidades{
+    background-color: #52483b;
+}
+
 .targetas{
     display: flex;
     justify-content: space-evenly;
 }
 
 .targetas .targeta{
-    background: #acc47f;
+    background: #66533a;
     display: flex;
-    width: 46%;
-    height: 200px;
+    width: 30%;
+    height: 150px;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 5px;
+    border-radius: 5%;
 }
 
 .targetas .targera img{
-    width: 100px;
-    height: 100px;
     object-fit: cover;
-    border: #acc47f;
+    border: #57360b;
+}
+
+/*boton para subir*/
+
+#boton{
+    background-color: #4d473f;
+    display: flex;
+    justify-content: center;
+}
+
+#boton a img{
+    width: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}    
+
+/*Seccion de contacto*/
+
+.contacto{
+    background-color: #52504e;
+}
+
+.contacto p{    
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.contacto-contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto-contenedor ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-contenedor ul li {
+    padding: 2%;
+}
+
+.contacto-contenedor h4{
+    color: rgb(61, 36, 6);
+    align-items: center;
+
+}
+
+.contacto-contenedor a{
+    color:beige;
+    padding-bottom: 20px;
+}
+
+/*pie*/
+
+.texto-final{
+    background-color: black;
+    color: rgb(58, 58, 58);
+    font-size: 15px;
 }
