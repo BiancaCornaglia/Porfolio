@@ -141,7 +141,7 @@ section div p{
 }
 
 .trabajos-contenedor p{
-    color: rgb(83, 61, 44);
+    color: rgb(65, 45, 31);
     font-size: 20px;
     text-align: center;
     padding-bottom: 20px;
@@ -217,6 +217,10 @@ section div p{
     border: #57360b;
 }
 
+.texto-targeta{
+    color: beige;
+}
+
 /*boton para subir*/
 
 #boton{
@@ -262,14 +266,14 @@ section div p{
 }
 
 .contacto-contenedor h4{
-    color: rgb(56, 42, 24);
+    color: rgb(170, 137, 94);
     align-items: center;
     font-size: 20px;
 
 }
 
 .contacto-contenedor a{
-    color:beige;
+    color:rgb(252, 217, 185);
     padding-bottom: 20px;
 }
 
