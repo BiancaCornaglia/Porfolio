@@ -18,7 +18,7 @@ header h1{
     height: 100px;
     text-indent: -1000px;
     text-align:center;
-    background-image: url(Images/Logob3ly_cuadrado_01.jpg);
+    background-image: url(/Images/Logob3ly_cuadrado_01.jpg);
     background-size: cover;
 }
 
